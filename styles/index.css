@@ -1,0 +1,33 @@
+.Horizontal-Items { 
+    display: flex;
+    flex-direction: row;
+}
+
+#Logo {
+    padding-left:1em;
+    margin-right: 40em;
+    padding-top:0.5em;
+    width:4%;
+    height:4%;
+}
+
+.Horizontal-Items img{ 
+    width:2%;
+    height:2%;
+    padding-top:1.7em;
+    margin-left:3em;
+}
+
+.Horizontal-Items h2{
+    padding-top:0.5em;
+    justify-content: flex-end;
+    margin-left:auto;
+}
+
+.Line {
+    margin-top: 0.5em;
+    width: 100%;
+    border-top:2px solid; 
+    border-color: black;
+    height: 1%;
+}
