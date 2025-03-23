@@ -5,29 +5,31 @@
 
 #Logo {
     padding-left:1em;
-    margin-right: 30em;
+    margin-right: 50%;
     margin-left:0;
-    padding-top:0.5em;
+    padding-top:0.2em;
     width:4em;
     height:4em;
 }
 
 .Horizontal-Items img{ 
     width:1.5em;
-    height:1.5em;
-    padding-top:2em;
-    margin-left:1.5em;
+    height:1.7em;
+    padding-top:1.5em;
+    /* margin-left:4%; */
+    justify-content: flex-end;
+    margin-left:auto;
 }
 
 .Horizontal-Items h2{
-    padding-top:0.5em;
+    padding-top:0.2em;
     justify-content: flex-end;
     margin-left:auto;
 }
 
 .Line {
     position:absolute;
-    margin-top: 0.5em;
+    margin-top: 0.2em;
     margin-left: -1%;
     border-left: 0;
     padding-left: 0;
@@ -36,3 +38,50 @@
     border-color: black;
     height: 1%;
 }
+
+.potraits {
+    position: relative;
+  }
+  .profile-shadow {
+    width:inherit;
+    height:inherit;
+    position: relative;
+    margin-top:10%;
+    margin-left:15%;
+  }
+  .profile-pic {
+    width:25%;
+    height:50%;
+    position: absolute;
+    margin-top:10%;
+    margin-left:15%;
+    top: 50px;
+    left: 50px;
+  }
+
+  .Biography {
+    position:absolute;
+    margin-left:50%;
+    margin-top:-31%;
+    padding-right:10%;
+  }
+
+  .Biography h1{
+    font-size:4em;
+  }
+
+  .Biography h1::after{
+    content: "";
+    display: block;
+    width: 70%;
+    height: 3px;
+    background-color: #FFD457;
+    justify-content: flex-start;
+    border-radius: 2px;
+  }
+
+  .Biography h2{
+    font-size:2em;
+    line-height: 1.5em;
+    word-spacing: 0.2em;
+  }
