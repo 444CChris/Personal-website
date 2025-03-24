@@ -1,132 +1,148 @@
+:root {
+  --base-color: white;
+  --base-variant: black;
+  --accent-color: #FFD457;
+}
+
+.darkmode {
+  --base-color: #1e1e1e;
+  --base-variant: white;
+  --accent-color: #203864;
+}
+
+.container {
+  color: var(--base-variant);
+}
+
 .Horizontal-Items { 
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 #Logo {
-    padding-left:1em;
-    margin-right: 50%;
-    margin-left:0;
-    padding-top:0.2em;
-    width:4em;
-    height:4em;
+  padding-left:1em;
+  margin-right: 60%;
+  margin-left:0;
+  padding-top:0.2em;
+  width:4em;
+  height:4em;
 }
 
 .Horizontal-Items img{ 
-    width:1.5em;
-    height:1.7em;
-    padding-top:1.5em;
-    /* margin-left:4%; */
-    justify-content: flex-end;
-    margin-left:auto;
+  width:1.5em;
+  height:1.7em;
+  padding-top:1.5em;
+  margin-left:auto;
+  justify-content: flex-end;
 }
 
-.Horizontal-Items h2{
-    padding-top:0.2em;
-    justify-content: flex-end;
-    margin-left:auto;
+.Horizontal-Items a{
+  padding-top:0.2em;
+  justify-content: flex-end;
+  margin-left:auto;
 }
 
 .Line {
-    position:absolute;
-    margin-top: 0.2em;
-    margin-left: -1%;
-    border-left: 0;
-    padding-left: 0;
-    width: 101%;
-    border-top:2px solid; 
-    border-color: black;
-    height: 1%;
+  position:absolute;
+  margin-top: 0.2em;
+  margin-left: -1%;
+  border-left: 0;
+  padding-left: 0;
+  width: 101%;
+  border-top:2px solid; 
+  border-color: var(--base-variant);
+  height: 1%;
 }
 
 .potraits {
-    position: relative;
-  }
-  .profile-shadow {
-    width:25%;
-    height:50%;
-    position: relative;
-    margin-top:10%;
-    margin-left:15%;
-  }
-  .profile-pic {
-    width:25%;
-    height:50%;
-    position: absolute;
-    margin-top:10%;
-    margin-left:15%;
-    top: 50px;
-    left: 50px;
-  }
+  position: relative;
+}
 
-  .Biography {
-    position:absolute;
-    margin-left:50%;
-    margin-top:-31%;
-    padding-right:10%;
-  }
+.profile-shadow {
+  width:25%;
+  height:50%;
+  position: relative;
+  margin-top:10%;
+  margin-left:15%;
+}
+.profile-pic {
+  width:25%;
+  height:50%;
+  position: absolute;
+  margin-top:10%;
+  margin-left:15%;
+  top: 50px;
+  left: 50px;
+}
 
-  .Biography h1{
-    font-size:4em;
-  }
+.Biography {
+  position:absolute;
+  margin-left:50%;
+  margin-top:-31%;
+  padding-right:10%;
+}
 
-  .Biography h1::after{
-    content: "";
-    display: block;
-    width: 70%;
-    height: 3px;
-    background-color: #FFD457;
-    justify-content: flex-start;
-    border-radius: 2px;
-  }
+.Biography h1{
+  font-size:4em;
+}
 
-  .Biography h2{
-    font-size:2em;
-    line-height: 1.5em;
-    word-spacing: 0.2em;
-  }
+.Biography h1::after{
+  content: "";
+  display: block;
+  width: 70%;
+  height: 3px;
+  background-color: var(--accent-color);
+  justify-content: flex-start;
+  border-radius: 2px;
+}
 
-  .footer {
-    display: flex;
-    flex-direction: row;
-  }
+.Biography h2{
+  font-size:2em;
+  line-height: 1.5em;
+  word-spacing: 0.2em;
+}
 
-  .footer h2{
-    margin-right:70%;
-    margin-top:0.8%;
-  }
+.footer {
+  display: flex;
+  flex-direction: row;
+}
 
-  .footer img{
-    justify-content: flex-end;
-    margin-left:auto;
-    width:3em;
-    height:3em;
-    margin-right:0.5em;
-    margin-top:0.3%;
-  }
+.footer h2{
+  margin-right:70%;
+  margin-top:0.8%;
+}
 
-  .footer-line {
-    content: "";
-    display: block;
-    margin-left: -1%;
-    width: 102%;
-    height: 3px;
-    margin-top:10%;
-    background-color: black;
-    justify-content: flex-start;
-    border-radius: 1px;
-  }
+.footer img{
+  justify-content: flex-end;
+  margin-left:auto;
+  width:3em;
+  height:3em;
+  margin-right:0.5em;
+  margin-top:0.3%;
+}
 
-  a:link {
-    text-decoration: none;
-    color:black;
-  }
-  a:visited {
-    text-decoration: none;
-    color:black;
-  }
-  a:hover {
-    text-decoration: none;
-    color:black;
-    opacity: 50%;
-  }
+.footer-line {
+  content: "";
+  display: block;
+  margin-left: -1%;
+  width: 102%;
+  height: 2px;
+  margin-top:10%;
+  background-color: var(--base-variant);
+  justify-content: flex-start;
+  border-radius: 1px;
+}
+
+a:link {
+  text-decoration: none;
+  color:var(--base-variant);
+}
+a:visited {
+  text-decoration: none;
+  color:var(--base-variant);
+}
+a:hover {
+  text-decoration: none;
+  color:var(--base-variant);
+  opacity: 50%;
+}
