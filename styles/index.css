@@ -43,8 +43,8 @@
     position: relative;
   }
   .profile-shadow {
-    width:inherit;
-    height:inherit;
+    width:25%;
+    height:50%;
     position: relative;
     margin-top:10%;
     margin-left:15%;
@@ -84,4 +84,49 @@
     font-size:2em;
     line-height: 1.5em;
     word-spacing: 0.2em;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer h2{
+    margin-right:70%;
+    margin-top:0.8%;
+  }
+
+  .footer img{
+    justify-content: flex-end;
+    margin-left:auto;
+    width:3em;
+    height:3em;
+    margin-right:0.5em;
+    margin-top:0.3%;
+  }
+
+  .footer-line {
+    content: "";
+    display: block;
+    margin-left: -1%;
+    width: 102%;
+    height: 3px;
+    margin-top:10%;
+    background-color: black;
+    justify-content: flex-start;
+    border-radius: 1px;
+  }
+
+  a:link {
+    text-decoration: none;
+    color:black;
+  }
+  a:visited {
+    text-decoration: none;
+    color:black;
+  }
+  a:hover {
+    text-decoration: none;
+    color:black;
+    opacity: 50%;
   }
