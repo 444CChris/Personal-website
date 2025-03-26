@@ -24,7 +24,6 @@
   background-color: var(--base-color);
   border: none;
   outline: none;
-  margin-right: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +40,6 @@
   outline: none;
   margin-left:auto;
   justify-content: flex-end;
-  margin-right:0.5vw;
 }
 
 #theme-swap-link h2{
@@ -246,4 +244,18 @@ a:hover {
   text-decoration: none;
   color:var(--base-variant);
   opacity: 50%;
+}
+
+.right-aligned-top {
+    position: absolute;
+    display: flex;
+    top:8px;
+    right: 16px;
+}
+
+.right-aligned-bottom {
+    position: absolute;
+    display: flex;
+    bottom: -7%;
+    right: 16px;
 }
