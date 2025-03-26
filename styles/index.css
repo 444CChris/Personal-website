@@ -49,8 +49,8 @@
   padding-left:0.5vw;
   margin-left:0;
   padding-top:1%;
-  width:4em;
-  height:4em;
+  width:7vmin;
+  height:7vmin;
 }
 
 #theme-swap img:last-child{
@@ -87,8 +87,8 @@
 }
 
 .Horizontal-Items .image-swap img{ 
-  width:1.5em;
-  height:1.7em;
+  width:3vmin;
+  height:3vmin;
   padding-top:2.5vh;
   margin-left:auto;
   justify-content: flex-end;
