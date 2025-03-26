@@ -255,7 +255,5 @@ a:hover {
 
 .right-aligned-bottom {
     position: absolute;
-    display: flex;
-    bottom: -7%;
-    right: 16px;
+    right: 10px;
 }
