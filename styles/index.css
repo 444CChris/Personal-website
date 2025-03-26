@@ -41,7 +41,7 @@
   outline: none;
   margin-left:auto;
   justify-content: flex-end;
-  margin-right:0.5%;
+  margin-right:0.5vw;
 }
 
 #theme-swap-link h2{
@@ -141,16 +141,18 @@
 }
 
 .shadow-swap img{
-  width:25%;
-  height:50%;
+  max-width: 25%;
+  height: auto;
+  width: auto\9;
   position: relative;
   margin-top:10%;
   margin-left:15%;
 }
 
 .profile-pic {
-  width:25%;
-  height:50%;
+  max-width: 25%;
+  height: auto;
+  width: auto\9;
   position: absolute;
   margin-top:10%;
   margin-left:15%;
