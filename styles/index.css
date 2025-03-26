@@ -89,13 +89,13 @@
 .Horizontal-Items .image-swap img{ 
   width:1.5em;
   height:1.7em;
-  padding-top:1.5em;
+  padding-top:2.5vh;
   margin-left:auto;
   justify-content: flex-end;
 }
 
 .Horizontal-Items a{
-  padding-top:0.5vh;
+  padding-top:0;
   justify-content: flex-end;
   margin-left:auto;
   font-size: 2vmin;
