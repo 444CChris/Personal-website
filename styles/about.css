@@ -191,11 +191,21 @@
   
  .image-description {
     position: absolute;
-    right: 5vw;
+    right: 7vw;
+    text-align: center;
     text-wrap: wrap;
     max-width: 25vw;
-    margin-top: -1%;
+    margin-top: -15vh;
     font-size: 1vmin;
+  }
+
+  .picture img{
+    float: right;
+    margin-top:-55vh;
+    margin-right: 7vw;
+    max-width: 25%;
+    height: auto;
+    width: auto\9;
   }
   
   .name p{
