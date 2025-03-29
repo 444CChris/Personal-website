@@ -162,7 +162,7 @@
   .Biography {
     display: flex;
     flex-direction: column;
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-left: 5vw;
     padding-right:40vw;
     padding-bottom: 0;
@@ -189,9 +189,10 @@
     font-size:3.5vmin;
     line-height: 1.5em;
     word-spacing: 0.2em;
+    font-weight: 100;
   }
   
- .image-description {
+ .image-description h1{
     text-align: center;
     flex-direction: column;
     display: flex;
@@ -199,7 +200,7 @@
     margin-top:-10vh;
     margin-right: 7vw;
     max-width: 25vw;
-    font-size: 1vmin;
+    font-size: 2vmin;
   }
 
   .picture img{
@@ -213,22 +214,25 @@
   }
 
   .interests {
-    margin-top: 20vh;
-    padding-left: 5vw;
+    text-align: left;
+    margin-top: 5vh;
+    padding-left: 60vw;
     padding-right: 5vw;
     font-size: 2.5vmin;
     margin-bottom: -10vh;
   }
   
+
+
   .interests p::before{
     content: "";
     display: block;
-    width: 70%;
     height: 3px;
+    width: 35vw;
     margin-top: -2vh;
     margin-bottom: 1vh;
     background-color: var(--accent-color);
-    justify-content: flex-start;
+    justify-content: flex-end;
     border-radius: 2px;
   }
 
@@ -273,7 +277,7 @@
     margin-left: -1%;
     width: 102%;
     height: 2px;
-    margin-top:20vh;
+    margin-top:50vh;
     background-color: var(--base-variant);
     justify-content: flex-start;
     border-radius: 1px;
@@ -305,4 +309,52 @@
       right: 0.5vw;
       margin-top: 1vh;
       margin-bottom: 0;
+  }
+
+  .slides {
+    display: none;
+  }
+
+  .prev {
+    font-size: 5vmin;
+    float: right;
+    margin-right: 35vw;
+    margin-top: -35vh;
+  }
+
+  .next {
+    font-size: 5vmin;
+    float: right;
+    margin-right: 3vw;
+    margin-top: -35vh;
+  }
+
+  .next:hover, .prev:hover {
+    cursor: pointer;
+    color:white;
+    opacity: 1;
+    background-color: gray; 
+  }
+
+  .interests-picture img{ 
+    max-width: 50%;
+    height: auto;
+    width: auto\9;
+    float:left; 
+    margin-left: 5vw; 
+    margin-top: 2vh;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+   
+  .picture {
+    margin-top:8vh;
   }
