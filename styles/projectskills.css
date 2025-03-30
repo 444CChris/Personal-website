@@ -144,7 +144,7 @@
     height: auto;
     width: auto\9;
     position: relative;
-    margin-top:22vh;
+    margin-top:20vh;
     margin-left:15vw;
   }
   
@@ -160,83 +160,38 @@
   }
   
   .Biography {
-    display: flex;
-    flex-direction: column;
-    padding-top: 5vh;
-    padding-left: 5vw;
-    padding-right:40vw;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    position:absolute;
+    margin-left:50vw;
+    margin-top:-57vh;
+    padding-right:10vw;
   }
   
   .Biography h1{
     font-size:6vmin;
   }
   
-  .Biography h1::after{
+  h1::after{
     content: "";
     display: block;
     width: 70%;
     height: 3px;
-    margin-top: 1vh;
+    margin-top:1%;
     background-color: var(--accent-color);
     justify-content: flex-start;
     border-radius: 2px;
   }
   
   .Biography h2{
-    margin-top: -3vh;
     font-size:3.5vmin;
-    line-height: 1.5em;
-    word-spacing: 0.2em;
-    font-weight: 100;
-  }
-  
- .image-description h1{
-    text-align: center;
-    flex-direction: column;
-    display: flex;
-    float: right;
-    margin-top:-10vh;
-    margin-right: 7vw;
-    max-width: 25vw;
-    font-size: 2vmin;
-  }
-
-  .picture img{
-    display: flex;
-    float: right;
-    margin-top:-55vh;
-    margin-right: 7vw;
-    max-width: 25%;
-    height: auto;
-    width: auto\9;
-  }
-
-  .interests {
-    text-align: left;
-    margin-top: 5vh;
-    padding-left: 60vw;
-    padding-right: 5vw;
-    font-size: 2.5vmin;
-    margin-bottom: -10vh;
-  }
-  
-  .interests p::before{
-    content: "";
-    display: block;
-    height: 3px;
-    width: 35vw;
-    margin-top: -2vh;
-    margin-bottom: 1vh;
-    background-color: var(--accent-color);
-    justify-content: flex-end;
-    border-radius: 2px;
-  }
-
-  .interests p {
     margin-top: -1vh;
     line-height: 1.5em;
+    word-spacing: 0.2em;
+  }
+  
+  .name {
+    margin-left: 15%;
+    margin-top: -1%;
+    font-size: 2vmin;
   }
   
   .name p{
@@ -271,11 +226,11 @@
   
   .footer-line {
     content: "";
-    display: block;
     margin-left: -1%;
     width: 102%;
     height: 2px;
-    margin-top:50vh;
+    margin-top: 5vh;
+    bottom: 1vh;
     background-color: var(--base-variant);
     justify-content: flex-start;
     border-radius: 1px;
@@ -309,62 +264,39 @@
       margin-bottom: 0;
   }
 
-  .slides {
-    display: none;
+
+  .projects {
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
-  .prev {
-    font-size: 5vmin;
-    float: right;
-    margin-right: 35vw;
-    margin-top: -35vh;
+  .projects h1{
+    font-size: 6vmin;
   }
 
-  .next {
-    font-size: 5vmin;
-    float: right;
-    margin-right: 3vw;
-    margin-top: -35vh;
+  .project h2{
+    font-size:3vmin;
   }
 
-  .next:hover, .prev:hover {
-    cursor: pointer;
-    color:white;
-    opacity: 1;
-    background-color: gray; 
-  }
+  .projects table {
+    margin-left: -5vw;
+}
 
-  .interests-picture img{ 
+.projects td {
+    padding: 0; 
+    margin: 0;
+    padding-top: 2vh; 
+}
+
+  .projects img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 50%;
     height: auto;
     width: auto\9;
-    float:left; 
-    margin-left: 5vw; 
-    margin-top: 2vh;
   }
 
-  .interests-picture img:last-child {
-    display: none; 
-  }
-
-  .darkmode .interests-picture img:last-child {
-    display: block; 
-  }
-
-  .darkmode .interests-picture img:first-child {
-    display: none; 
-  }
-
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-   
-  .picture {
-    margin-top:8vh;
+  .skills {
+    margin-left: 5vw;
   }
