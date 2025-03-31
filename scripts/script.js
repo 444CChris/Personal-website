@@ -1,6 +1,7 @@
 let darkmode = localStorage.getItem('darkmode')
 const themeSwap = document.getElementById("theme-swap")
 const themeSwapLink = document.getElementById("theme-swap-link")
+const favicon = document.getElementById("favicon")
 
 themeSwap.addEventListener("click", () => {
     darkmode = localStorage.getItem('darkmode')
@@ -9,11 +10,13 @@ themeSwap.addEventListener("click", () => {
 
 const enableDarkmode = () => {
     document.body.classList.add('darkmode')
+    favicon.setAttribute("href", "../assets/Dark Logo(1).png")
     localStorage.setItem('darkmode', 'active')
 }
 
 const disableDarkmode= () => {
     document.body.classList.remove('darkmode')
+    favicon.setAttribute("href", "../assets/Sun Logo.png")
     localStorage.setItem('darkmode', null)
 }
 
