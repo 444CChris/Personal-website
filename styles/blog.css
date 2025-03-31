@@ -170,14 +170,18 @@
     font-size:6vmin;
   }
   
-  h1::after{
+  .title {
+    text-align: center;
+  }
+
+  .title::after{
     content: "";
     display: block;
-    width: 30%;
+    width: 25vw;
     height: 3px;
     margin-top:1%;
     background-color: var(--accent-color);
-    justify-content: flex-start;
+    margin-left: 37vw;
     border-radius: 2px;
   }
   
@@ -274,18 +278,29 @@
     font-size: 6vmin;
   }
 
+  .projects h1::after{
+    content: "";
+    display: block;
+    width: 25vw;
+    height: 3px;
+    margin-top:1%;
+    background-color: var(--accent-color);
+    margin-left: 0vw;
+    border-radius: 2px;
+  }
+
   .projects h2{
-    font-size:4vmin;
+    font-size:5vmin;
     padding-bottom: 5vh;
   }
 
   .projects p{
-    font-size: 2vmin;
+    font-size: 2.5vmin;
   }
 
   .projects table {
-    margin-left: -10vw;
-}
+    margin-left: 3vw;
+  }
 
 .projects td {
     padding: 0; 
@@ -297,30 +312,62 @@
   .projects img{
     display: block;
     margin-right: 3vw;
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     width: auto\9;
     float: right;
   }
 
-  .skills {
-    margin-left: 5vw;
-  }
-
-  .skills h1{
-    font-size: 6vmin;
-  }
-
-  .skills img{
-    max-width: 35%;
+  .banner img{
+    display: block;
+    margin-right: 3vw;
+    max-width: 50%;
+    margin-top:-1vh;
     height: auto;
     width: auto\9;
-    display: block;
-    margin-left: auto;
+    margin-left:auto;
     margin-right: auto;
   }
 
-  .skills p{
+  .date{
     text-align: center;
-    font-size: 3vmin;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  .post {
+    margin-left: 27%;
+    margin-right: 27%;
+  }
+
+  .post img{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:2vh;
+    padding-bottom:2vh;
+  }
+
+  .post p{
+    font-size: 2vmin;
+  }
+
+  .back-arrow img{
+    margin-left: 0.5vw;
+    max-width: 3%;
+    margin-top: 2vh;
+    height: auto;
+    width: auto\9;
+  }
+
+  .back-arrow a:last-child{
+    display: none;
+  }
+
+  .darkmode .back-arrow a:first-child{
+    display: none;
+  }
+  
+  .darkmode .back-arrow a:last-child{
+    display: block;
   }
