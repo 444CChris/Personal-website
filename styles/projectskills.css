@@ -202,6 +202,7 @@
   .footer {
     display: flex;
     flex-direction: row;
+    font-family: 'inter', Georgia, 'Times New Roman', Times, serif;
   }
   
   .footer h2{
@@ -281,6 +282,7 @@
 
   .projects p{
     font-size: 2vmin;
+    font-family: "inter", Georgia, 'Times New Roman', Times, serif;
   }
 
   .projects a {
@@ -335,4 +337,9 @@
   .skills p{
     text-align: center;
     font-size: 3vmin;
+  }
+
+  @font-face {
+    font-family: "inter";
+    src: url(https://fonts.google.com/share?selection.family=Inter) format("truetype");
   }

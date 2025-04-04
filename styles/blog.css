@@ -10,9 +10,13 @@
     --accent-color: #5A6374;
   }
   
+  p { 
+    font-family: 'inter', Georgia, 'Times New Roman', Times, serif;
+  }
+
   .container {
     color: var(--base-variant);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'inter', Georgia, 'Times New Roman', Times, serif;
   }
   
   .Horizontal-Items { 
@@ -370,4 +374,9 @@
   
   .darkmode .back-arrow a:last-child{
     display: block;
+  }
+
+  @font-face {
+    font-family: "inter";
+    src: url(https://fonts.google.com/share?selection.family=Inter) format("truetype");
   }
