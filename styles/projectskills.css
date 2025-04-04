@@ -273,6 +273,7 @@
 
   .projects h1{
     font-size: 6vmin;
+    margin-left: 6vw;
   }
 
   .projects h2{
@@ -290,7 +291,8 @@
   }
 
   .projects table {
-    margin-left: -10vw;
+    margin-left: -3vw;
+    margin-right: 7vw;
 }
 
 .projects td {
@@ -310,7 +312,9 @@
   }
 
   .skills {
-    margin-left: 5vw;
+    margin-top: 8vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
   }
 
   .skills td{
@@ -319,6 +323,7 @@
 
   .skills h1{
     font-size: 6vmin;
+    margin-left: 5vw;
   }
 
   .skills img{

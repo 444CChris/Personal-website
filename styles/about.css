@@ -188,7 +188,6 @@
     margin-top: -3vh;
     font-size:3.5vmin;
     line-height: 1.5em;
-    word-spacing: 0.2em;
     font-weight: 100;
   }
   
@@ -201,6 +200,7 @@
     margin-right: 8vw;
     max-width: 25vw;
     font-size: 2vmin;
+    font-weight: 150;
   }
 
   .picture img{
@@ -280,7 +280,7 @@
     margin-left: -1%;
     width: 102%;
     height: 2px;
-    margin-top:45vh;
+    margin-top:38vh;
     background-color: var(--base-variant);
     justify-content: flex-start;
     border-radius: 1px;
@@ -382,4 +382,8 @@
   @font-face {
     font-family: "inter";
     src: url(https://fonts.google.com/share?selection.family=Inter) format("truetype");
+  }
+
+  .pictures {
+    margin-top:-7vh;
   }
