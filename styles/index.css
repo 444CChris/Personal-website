@@ -301,7 +301,7 @@
     flex-direction: row;
   }
 
-  #theme-swap {
+  #theme-swap-mobile {
     background-color: var(--base-color);
     border: none;
     outline: none;
@@ -309,42 +309,44 @@
     align-items: center;
     justify-content: center;
     padding-top:0.3vh;
+    z-index: 2;
   }
 
 
 
-  #theme-swap-link {
+  #theme-swap-mobile-link {
     background-color: var(--base-color);
     border: none;
     outline: none;
-    margin-left:auto;
+    margin-left: auto;
     justify-content: flex-end;
   }
-
-  #theme-swap-link h2{
+  
+  #theme-swap-mobile-link h2 {
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-
-  #theme-swap img{
-    padding-left:0.5vw;
-    margin-left:0;
-    padding-top:1%;
-    width:7vmin;
-    height:7vmin;
+  
+  #theme-swap-mobile img {
+    padding-left: 0.5vw;
+    margin-left: 0;
+    padding-top: 1%;
+    width: 7vmin;
+    height: 7vmin;
   }
-
-  #theme-swap img:last-child{
+  
+  #theme-swap-mobile img:last-child {
     display: none;
   }
-
-  .darkmode #theme-swap img:first-child{
+  
+  .darkmode #theme-swap-mobile img:first-child {
     display: none;
   }
-
-  .darkmode #theme-swap img:last-child{
+  
+  .darkmode #theme-swap-mobile img:last-child {
     display: block;
   }
+  
 
   .image-swap img:last-child{
     display: none;
@@ -390,7 +392,19 @@
     margin-left: -1%;
     border-left: 0;
     padding-left: 0;
-    width: 101%;
+    width: 105%;
+    border-top:2px solid; 
+    border-color: var(--base-variant);
+    height: 2px;
+  }
+
+  .Line-2 {
+    position:absolute;
+    margin-top: 4.5vh;
+    margin-left: -6%;
+    border-left: 0;
+    padding-left: 0;
+    width: 105%;
     border-top:2px solid; 
     border-color: var(--base-variant);
     height: 2px;
@@ -554,16 +568,24 @@
     width: 50px;
     background-color: #D3D3D3;
     margin-left: 100vw;
+    opacity: 0.5;
   }
 
   .vertical-menu a h2{
     float:left;
-    margin-right:3vw;
   }
 
   .vertical-menu {
     margin-top: 1vh;
     margin-left: 15vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .vertical-menu img{
+    background-color: var(--base-color);
+    margin-left: 0;
+    margin-top: -1vh;
   }
 
   @font-face {
