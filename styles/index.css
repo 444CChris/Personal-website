@@ -545,6 +545,27 @@
       margin-bottom: 0;
   }
 
+  .hamburger-menu {
+    float: right;
+  }
+
+  .hamburger-menu img{
+    height: 50px;
+    width: 50px;
+    background-color: #D3D3D3;
+    margin-left: 100vw;
+  }
+
+  .vertical-menu a h2{
+    float:left;
+    margin-right:3vw;
+  }
+
+  .vertical-menu {
+    margin-top: 1vh;
+    margin-left: 15vw;
+  }
+
   @font-face {
     font-family: "inter";
     src: url(https://fonts.google.com/share?selection.family=Inter) format("truetype");
