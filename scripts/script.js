@@ -2,20 +2,7 @@ let darkmode = localStorage.getItem('darkmode')
 const themeSwap = document.getElementById("theme-swap")
 const themeSwapLink = document.getElementById("theme-swap-link")
 const favicon = document.getElementById("favicon")
-const themeSwapMobile = document.getElementById("theme-swap-mobile")
-const themeSwapLinkMobile = document.getElementById("theme-swap-link-mobile")
 
-
-themeSwapMobile.addEventListener("click", () => {
-    darkmode = localStorage.getItem('darkmode')
-    darkmode !== "active" ? enableDarkmode() : disableDarkmode()
-})
-
-
-themeSwapLinkMobile.addEventListener("click", () => {
-    darkmode = localStorage.getItem('darkmode')
-    darkmode !== "active" ? enableDarkmode() : disableDarkmode()
-})
 
 themeSwap.addEventListener("click", () => {
     darkmode = localStorage.getItem('darkmode')
