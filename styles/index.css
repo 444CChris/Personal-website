@@ -11,7 +11,7 @@
     --accent-color: #5A6374;
   }
 
-  .mobile-header {
+  .header {
     display:none;
   }
 
@@ -20,7 +20,7 @@
     font-family: "inter";
   }
 
-  .pc-header { 
+  .header { 
     display: flex;
     flex-direction: row;
   }
@@ -91,7 +91,7 @@
     justify-content: flex-end;
   }
 
-  .pc-header .image-swap img{ 
+  .header .image-swap img{ 
     width:3vmin;
     height:3vmin;
     padding-left:10px;
@@ -101,7 +101,7 @@
     justify-content: flex-end;
   }
 
-  .pc-header a{
+  .header a{
     padding-top:0;
     justify-content: flex-end;
     margin-left:auto;
@@ -287,21 +287,21 @@
     --accent-color: #5A6374;
   }
 
+  .header {
+    display:none;
+  }
+
   .container {
     color: var(--base-variant);
     font-family: "inter";
   }
 
-  .pc-header {
-    display:none;
-  }
-
-  .mobile-header { 
+  .header { 
     display: flex;
     flex-direction: row;
   }
 
-  #theme-swap-mobile {
+  #theme-swap {
     background-color: var(--base-color);
     border: none;
     outline: none;
@@ -309,44 +309,42 @@
     align-items: center;
     justify-content: center;
     padding-top:0.3vh;
-    z-index: 2;
   }
 
 
 
-  #theme-swap-mobile-link {
+  #theme-swap-link {
     background-color: var(--base-color);
     border: none;
     outline: none;
-    margin-left: auto;
+    margin-left:auto;
     justify-content: flex-end;
   }
-  
-  #theme-swap-mobile-link h2 {
+
+  #theme-swap-link h2{
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  
-  #theme-swap-mobile img {
-    padding-left: 0.5vw;
-    margin-left: 0;
-    padding-top: 1%;
-    width: 7vmin;
-    height: 7vmin;
+
+  #theme-swap img{
+    padding-left:0.5vw;
+    margin-left:0;
+    padding-top:1%;
+    width:7vmin;
+    height:7vmin;
   }
-  
-  #theme-swap-mobile img:last-child {
+
+  #theme-swap img:last-child{
     display: none;
   }
-  
-  .darkmode #theme-swap-mobile img:first-child {
+
+  .darkmode #theme-swap img:first-child{
     display: none;
   }
-  
-  .darkmode #theme-swap-mobile img:last-child {
+
+  .darkmode #theme-swap img:last-child{
     display: block;
   }
-  
 
   .image-swap img:last-child{
     display: none;
@@ -369,7 +367,7 @@
     justify-content: flex-end;
   }
 
-  .mobile-header .image-swap img{ 
+  .header .image-swap img{ 
     width:3vmin;
     height:3vmin;
     padding-left:10px;
@@ -379,7 +377,7 @@
     justify-content: flex-end;
   }
 
-  .mobile-header a{
+  .header a{
     padding-top:0;
     justify-content: flex-end;
     margin-left:auto;
@@ -392,19 +390,7 @@
     margin-left: -1%;
     border-left: 0;
     padding-left: 0;
-    width: 105%;
-    border-top:2px solid; 
-    border-color: var(--base-variant);
-    height: 2px;
-  }
-
-  .Line-2 {
-    position:absolute;
-    margin-top: 4.5vh;
-    margin-left: -6%;
-    border-left: 0;
-    padding-left: 0;
-    width: 105%;
+    width: 101%;
     border-top:2px solid; 
     border-color: var(--base-variant);
     height: 2px;
@@ -435,31 +421,30 @@
   }
 
   .shadow-swap img{
-    max-width: 60%;
+    max-width: 25%;
     height: auto;
     width: auto\9;
     position: relative;
-    margin-top:15vh;
-    margin-left:14vw;
+    margin-top:20vh;
+    margin-left:15vw;
   }
 
   .profile-pic {
-    max-width: 60%;
+    max-width: 25%;
     height: auto;
     width: auto\9;
     position: absolute;
-    margin-top:15vh;
-    top: 0vh;
-    left: 0vw;    
-    margin-left: 20vw;
-    margin-right: auto;
+    margin-top:24vh;
+    margin-left:15vw;
+    top: 3vh;
+    left: 2vw;
   }
 
   .Biography {
     position:absolute;
-    margin-left:15vw;
-    margin-top:5vh;
-    padding-right:15vw;
+    margin-left:50vw;
+    margin-top:-57vh;
+    padding-right:10vw;
   }
 
   .Biography h1{
@@ -469,7 +454,7 @@
   .Biography h1::after{
     content: "";
     display: block;
-    width: 95%;
+    width: 70%;
     height: 3px;
     margin-top:1%;
     background-color: var(--accent-color);
@@ -484,7 +469,7 @@
   }
 
   .name {
-    margin-left: 15vw;
+    margin-left: 15%;
     margin-top: -1%;
     font-size: 2vmin;
   }
@@ -523,9 +508,9 @@
     content: "";
     display: block;
     margin-left: -1%;
-    width: 105%;
+    width: 102%;
     height: 2px;
-    margin-top:48vh;
+    margin-top:20vh;
     background-color: var(--base-variant);
     justify-content: flex-start;
     border-radius: 1px;
@@ -557,35 +542,6 @@
       right: 0.5vw;
       margin-top: 1vh;
       margin-bottom: 0;
-  }
-
-  .hamburger-menu {
-    float: right;
-  }
-
-  .hamburger-menu img{
-    height: 50px;
-    width: 50px;
-    background-color: #D3D3D3;
-    margin-left: 100vw;
-    opacity: 0.5;
-  }
-
-  .vertical-menu a h2{
-    float:left;
-  }
-
-  .vertical-menu {
-    margin-top: 1vh;
-    margin-left: 15vw;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .vertical-menu img{
-    background-color: var(--base-color);
-    margin-left: 0;
-    margin-top: -1vh;
   }
 
   @font-face {
