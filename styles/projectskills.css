@@ -15,7 +15,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  .Horizontal-Items { 
+  .header { 
     display: flex;
     flex-direction: row;
   }
@@ -42,7 +42,7 @@
   
   #theme-swap-link h2{
     align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'roboto slab', Georgia, 'Times New Roman', Times, serif;
   }
   
   #theme-swap img{
@@ -86,17 +86,17 @@
     justify-content: flex-end;
   }
   
-  .Horizontal-Items .image-swap img{ 
+  .header .image-swap img{ 
     width:3vmin;
     height:3vmin;
     padding-left:10px;
     padding-right: 10px;
-    padding-top:2.5vh;
+    padding-top:3vh;
     margin-left:auto;
     justify-content: flex-end;
   }
   
-  .Horizontal-Items a{
+  .header a{
     padding-top:0;
     justify-content: flex-end;
     margin-left:auto;
@@ -267,6 +267,7 @@
 
 
   .projects {
+    font-family: 'roboto slab';
     margin-left: 5vw;
     margin-right: 5vw;
   }
@@ -315,6 +316,7 @@
     margin-top: 8vh;
     margin-left: 7vw;
     margin-right: 7vw;
+    font-family: 'roboto slab', Georgia, 'Times New Roman', Times, serif;
   }
 
   .skills td{

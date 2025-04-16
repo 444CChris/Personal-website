@@ -9,8 +9,8 @@ themeSwap.addEventListener("click", () => {
     darkmode !== "active" ? enableDarkmode() : disableDarkmode()
 })
 
-let slideIndex = 1;
-showSlides(slideIndex);
+
+
 const enableDarkmode = () => {
     document.body.classList.add('darkmode')
     favicon.setAttribute("href", "../assets/Dark Logo(1).png")
@@ -30,7 +30,8 @@ themeSwapLink.addEventListener("click", () => {
     darkmode !== "active" ? enableDarkmode() : disableDarkmode()
 })
 
-
+let slideIndex = 1;
+showSlides(slideIndex);
 
 function plusSlides(n) {
     showSlides(slideIndex += n);
