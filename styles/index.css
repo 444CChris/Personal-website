@@ -308,8 +308,6 @@
     padding-top:0.3vh;
   }
 
-
-
   #theme-swap-link {
     background-color: var(--base-color);
     border: none;
@@ -369,7 +367,7 @@
     height:3vmin;
     padding-left:10px;
     padding-right: 10px;
-    padding-top:2.5vh;
+    padding-top:1.5vh;
     margin-left:auto;
     justify-content: flex-end;
   }
@@ -397,14 +395,6 @@
     position: relative;
   }
 
-  .profile-shadow {
-    width:25%;
-    height:50%;
-    position: relative;
-    margin-top:10%;
-    margin-left:15%;
-  }
-
   .shadow-swap img:last-child{
     display: none;
   }
@@ -418,20 +408,19 @@
   }
 
   .shadow-swap img{
-    max-width: 25%;
-    height: auto;
-    width: auto\9;
+    height: 35vh;
+    width: 70vw;
     position: relative;
-    margin-top:20vh;
-    margin-left:15vw;
+    margin-top:10vh;
+    margin-left:10vw;
   }
 
   .profile-pic {
-    max-width: 25%;
+    max-width: 70%;
     height: auto;
     width: auto\9;
     position: absolute;
-    margin-top:22vh;
+    margin-top:10vh;
     margin-left:15vw;
     top: 3vh;
     left: 2vw;
@@ -439,8 +428,8 @@
 
   .Biography {
     position:absolute;
-    margin-left:50vw;
-    margin-top:-57vh;
+    margin-left:10vw;
+    margin-top:5vh;
     padding-right:10vw;
   }
 
@@ -466,7 +455,7 @@
   }
 
   .name {
-    margin-left: 15%;
+    margin-left: 10vw;
     margin-top: -1%;
     font-size: 2vmin;
     font-family: 'roboto slab', Georgia, 'Times New Roman', Times, serif;
@@ -509,7 +498,7 @@
     margin-left: -1%;
     width: 102%;
     height: 2px;
-    margin-top:20vh;
+    margin-top:40vh;
     background-color: var(--base-variant);
     justify-content: flex-start;
     border-radius: 1px;
