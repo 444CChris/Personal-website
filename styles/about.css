@@ -555,7 +555,7 @@
   .Biography {
     display: flex;
     flex-direction: column;
-    padding-top: 40vh;
+    margin-top: 50vh;
     padding-left: 5vw;
     padding-right:5vw;
     padding-bottom: 0;
@@ -589,7 +589,7 @@
     flex-direction: column;
     display: flex;
     float: right;
-    margin-top:-48vh;
+    margin-top:-53vh;
     margin-right: 30vw;
     max-width: 40vw;
     font-size: 3vmin;
@@ -599,7 +599,7 @@
   .picture img{
     display: flex;
     float: right;
-    margin-top:-80vh;
+    margin-top:-90vh;
     margin-right: 23vw;
     max-width: 50%;
     height: auto;
@@ -672,7 +672,7 @@
     display: block;
     margin-left: -1%;
     width: 102%;
-    height: 2px;
+    height: 3px;
     margin-top:38vh;
     background-color: var(--base-variant);
     justify-content: flex-start;
@@ -715,14 +715,14 @@
     font-size: 5vmin;
     float: left;
     margin-left: 18vw;
-    margin-top: -60vh;
+    margin-top: -70vh;
   }
 
   .next {
     font-size: 5vmin;
     float: right;
     margin-right: 15vw;
-    margin-top: -60vh;
+    margin-top: -70vh;
   }
 
   .next:hover, .prev:hover {
