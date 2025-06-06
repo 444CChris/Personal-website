@@ -175,7 +175,7 @@
   .Biography {
     position:absolute;
     margin-left:50vw;
-    margin-top:-57vh;
+    margin-top:-53vh;
     padding-right:10vw;
     animation: topSlide;
     animation-duration: 1.5s;
@@ -558,7 +558,7 @@
 
 @keyframes topSlide {
   0%{margin-top: -70vh; opacity: 0;}
-  100%{margin-top: -57vh; opacity: 1;}
+  100%{margin-top: -53vh; opacity: 1;}
 }
 
 @keyframes topSlideMobile {
