@@ -647,7 +647,7 @@
       }
       .projects-mobile {
         display: block;
-        font-family: 'roboto slab';
+        font-family: 'roboto slab', Georgia, 'Times New Roman', Times, serif;
         margin-left: 7vw;
         margin-right: 7vw;
         margin-top: -5vh;
