@@ -150,22 +150,20 @@
   }
 
   .shadow-swap img{
-    max-width: 25%;
     height: auto;
-    width: auto\9;
+    width: 20%;
     position: relative;
     margin-top:20vh;
     margin-left:15vw;
   }
 
   .profile-pic {
-    max-width: 25%;
     height: auto;
-    width: auto\9;
+    width: 20%;
     position: absolute;
     margin-top:22vh;
     margin-left:15vw;
-    top: 3vh;
+    top: -3vh;
     left: 2vw;
   }
 
