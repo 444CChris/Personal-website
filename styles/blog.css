@@ -182,6 +182,8 @@
   
   .title {
     text-align: center;
+    font-family: 'roboto slab', Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5vmin;
   }
 
   .title::after{
@@ -288,6 +290,7 @@
 
   .projects-laptop h1{
     font-size: 6vmin;
+    font-family: 'roboto slab', Georgia, 'Times New Roman', Times, serif;
   }
 
   .projects-laptop h1::after{
@@ -304,10 +307,12 @@
   .projects-laptop h2{
     font-size:5vmin;
     padding-bottom: 5vh;
+    font-family: 'roboto slab', Georgia, 'Times New Roman', Times, serif;
   }
 
   .projects-laptop p{
     font-size: 2.5vmin;
+    font-family: 'inter', Georgia, 'Times New Roman', Times, serif;
   }
 
   .projects-laptop table {
@@ -330,7 +335,7 @@
     margin-right: 3vw;
     max-width: 100%;
     height: auto;
-    width: auto\9;
+    width: 65vw;
     float: right;
   }
 
@@ -353,15 +358,22 @@
     margin-right: auto;
   }
 
+  .date p{
+    font-size: 3vmin;
+  }
+
   .post {
     margin-left: 27%;
     margin-right: 27%;
+    font-family: 'inter', Georgia, 'Times New Roman', Times, serif;
   }
 
   .post img{
     display: block;
     margin-left:auto;
     margin-right: auto;
+    height: auto;
+    width: 45vw;
     margin-top:2vh;
     padding-bottom:2vh;
     animation:fadeIn;
@@ -369,7 +381,8 @@
   }
 
   .post p{
-    font-size: 2vmin;
+    font-size: 2.5vmin;
+    line-height: 4vh;
   }
 
   .back-arrow img{
@@ -581,6 +594,8 @@
     
     .title {
       text-align: center;
+      font-size: 2vmin;
+      font-family: 'roboto slab', Georgia, 'Times New Roman', Times, serif;
     }
   
     .title::after{
@@ -690,6 +705,7 @@
     .projects-mobile h1{
       font-size: 6vmin;
       margin-left: 4vw;
+      font-family: 'roboto slab', Georgia, 'Times New Roman', Times, serif;
     }
   
     .projects-mobile h1::after{
@@ -707,10 +723,12 @@
     .projects-mobile h2{
       font-size:5vmin;
       padding-bottom: 5vh;
+      font-family: 'roboto slab', Georgia, 'Times New Roman', Times, serif;
     }
   
     .projects-mobile p{
       font-size: 3.5vmin;
+      font-family: 'inter', Georgia, 'Times New Roman', Times, serif;
     }
   
     .projects-mobile table {
@@ -740,10 +758,15 @@
       margin-left:auto;
       margin-right: auto;
     }
+
+    .date p{
+      font-size: 3vmin;
+    }
   
     .post {
       margin-left: 5vw;
       margin-right: 5vw;
+      font-family:'inter', Georgia, 'Times New Roman', Times, serif;
     }
   
     .post img{
