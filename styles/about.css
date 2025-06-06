@@ -174,7 +174,7 @@
     padding-bottom: 0;
     margin-bottom: 0;
     animation:leftSlide;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
   }
   
   .Biography h1{
@@ -797,11 +797,7 @@
   }
 
   .pictures {
-<<<<<<< HEAD
     margin-top:-25vh;
-=======
-    margin-top:-20vh;
->>>>>>> ae43aea52ea2abf99fc207ede3227ec97e8ca405
   }
 }
 
