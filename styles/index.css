@@ -1,4 +1,9 @@
 @media (min-aspect-ratio:16/9){ /*laptop display */
+  body{
+    min-width: 1024px;
+    min-height: 800px;
+  }
+
   :root {
     --base-color: white;
     --base-variant: black;
@@ -169,6 +174,8 @@
     margin-left:50vw;
     margin-top:-57vh;
     padding-right:10vw;
+    animation: topSlide;
+    animation-duration: 1.5s;
   }
 
   .Biography h1{
@@ -272,6 +279,11 @@
 }
 
 @media (max-aspect-ratio: 16/9){ /*phone display */
+  body{
+    min-width: 320px;
+    min-height: 640px;
+  }
+
   :root {
     --base-color: white;
     --base-variant: black;
@@ -431,6 +443,8 @@
     margin-left:10vw;
     margin-top:5vh;
     padding-right:10vw;
+    animation: topSlideMobile;
+    animation-duration: 1.5s;
   }
 
   .Biography h1{
@@ -538,7 +552,15 @@
   }
 }
 
+@keyframes topSlide {
+  0%{margin-top: -70vh; opacity: 0;}
+  100%{margin-top: -57vh; opacity: 1;}
+}
 
+@keyframes topSlideMobile {
+  0%{margin-top: -5vh; opacity: 0;}
+  100%{margin-top: 5vh; opacity: 1;}  
+}
 
 
 

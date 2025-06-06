@@ -1,4 +1,9 @@
 @media (min-aspect-ratio:16/9){ /* laptop display*/
+  body{
+    min-width: 1024px;
+    min-height: 800px;
+  }
+
   :root {
       --base-color: white;
       --base-variant: black;
@@ -274,6 +279,8 @@
       font-family: 'roboto slab';
       margin-left: 5vw;
       margin-right: 5vw;
+      animation: bottomSlide;
+      animation-duration: 3s;
     }
 
     .projects-laptop h1{
@@ -361,6 +368,11 @@
   }
 
   @media (max-aspect-ratio:16/9){ /* mobile display*/
+    body{
+      min-width: 320px;
+      min-height: 640px;
+    }
+
     :root {
         --base-color: white;
         --base-variant: black;
@@ -637,6 +649,8 @@
         margin-left: 7vw;
         margin-right: 7vw;
         margin-top: -5vh;
+        animation: bottomSlide;
+      animation-duration: 3s;
       }
   
       .projects-mobile h1{
@@ -722,3 +736,14 @@
         src: url(https://fonts.google.com/share?selection.family=Inter) format("truetype");
       }
     }
+
+@keyframes bottomSlide {
+  0%{
+    margin-top: 30vh;
+    opacity: 0.1;
+  }
+  100%{
+    margin-top: 0;
+    opacity: 1;
+  }
+}
