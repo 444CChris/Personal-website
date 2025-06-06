@@ -1,4 +1,9 @@
 @media (min-aspect-ratio:16/9){ /*laptop display */
+  body{
+    min-width: 1024px;
+    min-height: 800px;
+  }
+
 :root {
     --base-color: white;
     --base-variant: black;
@@ -168,6 +173,8 @@
     padding-right:40vw;
     padding-bottom: 0;
     margin-bottom: 0;
+    animation:leftSlide;
+    animation-duration: 1.5s;
   }
   
   .Biography h1{
@@ -221,6 +228,8 @@
     padding-right: 5vw;
     font-size: 2.5vmin;
     margin-bottom: -30vh;
+    animation: rightSlide;
+    animation-duration: 1.5s;
   }
   
   .interests p::before{
@@ -391,6 +400,12 @@
 }
 
 @media (max-aspect-ratio:16/9){ /*mobile display */
+
+    body{
+      min-width: 320px;
+      min-height: 640px;
+    }
+
   :root {
     --base-color: white;
     --base-variant: black;
@@ -560,6 +575,8 @@
     padding-right:5vw;
     padding-bottom: 0;
     margin-bottom: 0;
+    animation: leftSlide;
+    animation-duration: 0.7s;
   }
   
   .Biography h1{
@@ -613,6 +630,8 @@
     font-size: 2.5vmin;
     margin-bottom: -30vh;
     margin-top: 10vh;
+    animation: rightSlide;
+    animation-duration: 0.7s;
   }
   
   .interests p::before{
@@ -779,5 +798,27 @@
 
   .pictures {
     margin-top:-7vh;
+  }
+}
+
+@keyframes leftSlide {
+  0%{
+    margin-left: -10vw;
+    opacity: 0.1;
+  }
+  100%{
+    margin-left: 0vw;
+    opacity: 1;
+  }
+}
+
+@keyframes rightSlide {
+  0%{
+    margin-right: -10vw;
+    opacity: 0.1;
+  }
+  100%{
+    margin-right: 0vw;
+    opacity: 1;
   }
 }

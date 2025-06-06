@@ -1,4 +1,9 @@
 @media (min-aspect-ratio:16/9){ /* laptop display */ 
+  body{
+    min-width: 1024px;
+    min-height: 800px;
+  }
+
 :root {
     --base-color: white;
     --base-variant: black;
@@ -277,6 +282,8 @@
   .projects-laptop {
     margin-left: 10vw;
     margin-right: 10vw;
+    animation: fadeIn;
+    animation-duration: 3s;
   }
 
   .projects-laptop h1{
@@ -336,6 +343,8 @@
     width: auto\9;
     margin-left:auto;
     margin-right: auto;
+    animation:fadeIn;
+    animation-duration: 2s;
   }
 
   .date{
@@ -355,6 +364,8 @@
     margin-right: auto;
     margin-top:2vh;
     padding-bottom:2vh;
+    animation:fadeIn;
+    animation-duration: 2s;
   }
 
   .post p{
@@ -388,6 +399,10 @@
 }
 
 @media (max-aspect-ratio:16/9){ /* mobile display */ 
+    body{
+      min-width: 320px;
+      min-height: 640px;
+    }
   :root {
       --base-color: white;
       --base-variant: black;
@@ -668,6 +683,8 @@
       margin-top: -5vh;
       margin-left: 5vw;
       margin-right: 7vw;
+      animation: fadeIn;
+      animation-duration: 3s;
     }
   
     .projects-mobile h1{
@@ -738,6 +755,8 @@
       width: auto\9;
       margin-left:auto;
       margin-right: auto;
+      animation: fadeIn;
+      animation-duration: 3s;
     }
   
     .post p{
@@ -781,10 +800,21 @@
       width: auto\9;
       margin-left:5vw;
       margin-right: 5vw;
+      animation: fadeIn;
+      animation-duration: 3s;
     }
   
     @font-face {
       font-family: "inter";
       src: url(https://fonts.google.com/share?selection.family=Inter) format("truetype");
+    }
+  }
+
+  @keyframes fadeIn {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
     }
   }
