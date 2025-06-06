@@ -150,16 +150,18 @@
   }
 
   .shadow-swap img{
+    max-width: 25%;
     height: auto;
-    width: 30%;
+    width: auto\9;
     position: relative;
     margin-top:20vh;
     margin-left:15vw;
   }
 
   .profile-pic {
+    max-width: 25%;
     height: auto;
-    width: 30%;
+    width: auto\9;
     position: absolute;
     margin-top:22vh;
     margin-left:15vw;
@@ -170,7 +172,7 @@
   .Biography {
     position:absolute;
     margin-left:50vw;
-    margin-top:-45vh;
+    margin-top:-57vh;
     padding-right:10vw;
     animation: topSlide;
     animation-duration: 1.5s;
@@ -552,7 +554,7 @@
 
 @keyframes topSlide {
   0%{margin-top: -70vh; opacity: 0;}
-  100%{margin-top: -45vh; opacity: 1;}
+  100%{margin-top: -57vh; opacity: 1;}
 }
 
 @keyframes topSlideMobile {
