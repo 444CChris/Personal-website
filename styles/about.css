@@ -797,7 +797,11 @@
   }
 
   .pictures {
+<<<<<<< HEAD
     margin-top:-25vh;
+=======
+    margin-top:-20vh;
+>>>>>>> ae43aea52ea2abf99fc207ede3227ec97e8ca405
   }
 }
 
