@@ -215,6 +215,7 @@
   .footer {
     display: flex;
     flex-direction: row;
+    margin-left: 2vw;
   }
 
   .footer h2{
@@ -441,7 +442,7 @@
   .Biography {
     position:absolute;
     margin-left:10vw;
-    margin-top:5vh;
+    margin-top:10vh;
     padding-right:10vw;
     animation: topSlideMobile;
     animation-duration: 1.5s;
@@ -470,7 +471,7 @@
 
   .name {
     margin-left: 10vw;
-    margin-top: -1%;
+    margin-top: 3vh;
     font-size: 2vmin;
     font-family: 'roboto slab', Georgia, 'Times New Roman', Times, serif;
   }
