@@ -649,8 +649,8 @@
         margin-left: 7vw;
         margin-right: 7vw;
         margin-top: -5vh;
-        animation: bottomSlide;
-      animation-duration: 1.5s;
+        animation: bottomSlideMobile;
+        animation-duration: 1.5s;
       }
   
       .projects-mobile h1{
@@ -744,6 +744,17 @@
   }
   100%{
     margin-top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes bottomSlideMobile {
+  0%{
+    margin-top: 30vh;
+    opacity: 0.1;
+  }
+  100%{
+    margin-top: -5vh;
     opacity: 1;
   }
 }
