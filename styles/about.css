@@ -734,14 +734,14 @@
     font-size: 5vmin;
     float: left;
     margin-left: 18vw;
-    margin-top: -70vh;
+    margin-top: -77vh;
   }
 
   .next {
     font-size: 5vmin;
     float: right;
     margin-right: 15vw;
-    margin-top: -70vh;
+    margin-top: -77vh;
   }
 
   .next:hover, .prev:hover {
@@ -797,7 +797,7 @@
   }
 
   .pictures {
-    margin-top:-7vh;
+    margin-top:-14vh;
   }
 }
 
