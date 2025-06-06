@@ -385,6 +385,9 @@
     line-height: 4vh;
   }
 
+  .post a{
+    text-decoration: underline;
+  }
   .back-arrow img{
     margin-left: 0.5vw;
     max-width: 3%;
