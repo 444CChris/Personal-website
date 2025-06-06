@@ -280,7 +280,7 @@
       margin-left: 5vw;
       margin-right: 5vw;
       animation: bottomSlide;
-      animation-duration: 3s;
+      animation-duration: 1.5s;
     }
 
     .projects-laptop h1{
@@ -650,7 +650,7 @@
         margin-right: 7vw;
         margin-top: -5vh;
         animation: bottomSlide;
-      animation-duration: 3s;
+      animation-duration: 1.5s;
       }
   
       .projects-mobile h1{
