@@ -1,4 +1,4 @@
- @import url('https://fonts.google.com/share?selection.family=Inter');
+
  @import url('http://fonts.googleapis.com/css?family=Roboto+Slab');
 
 @media (min-aspect-ratio:16/9){ /*laptop display */
@@ -203,6 +203,7 @@
   }
 
   .name {
+    display: block;
     margin-left: 15%;
     margin-top: -1%;
     font-size: 2vmin;
@@ -445,7 +446,7 @@
   .Biography {
     position:absolute;
     margin-left:10vw;
-    margin-top:10vh;
+    margin-top:5vh;
     padding-right:10vw;
     animation: topSlideMobile;
     animation-duration: 1.5s;
@@ -473,6 +474,7 @@
   }
 
   .name {
+    display: none;
     margin-left: 10vw;
     margin-top: 7vh;
     font-size: 2vmin;
@@ -552,7 +554,7 @@
 
   @font-face {
     font-family: "inter";
-    src: url(https://fonts.google.com/share?selection.family=Inter) format("truetype");
+    src: url('./assets/fonts/Inter/static/Inter_18pt-Regular.ttf') format("truetype");
   }
 }
 
@@ -563,7 +565,7 @@
 
 @keyframes topSlideMobile {
   0%{margin-top: -5vh; opacity: 0;}
-  100%{margin-top: 10vh; opacity: 1;}  
+  100%{margin-top: 5vh; opacity: 1;}  
 }
 
 
