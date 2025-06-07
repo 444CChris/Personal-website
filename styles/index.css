@@ -446,7 +446,7 @@
   .Biography {
     position:absolute;
     margin-left:10vw;
-    margin-top:5vh;
+    margin-top:8vh;
     padding-right:10vw;
     animation: topSlideMobile;
     animation-duration: 1.5s;
@@ -518,7 +518,7 @@
     margin-left: -1%;
     width: 102%;
     height: 2px;
-    margin-top:40vh;
+    margin-top:65vh;
     background-color: var(--base-variant);
     justify-content: flex-start;
     border-radius: 1px;
@@ -565,7 +565,7 @@
 
 @keyframes topSlideMobile {
   0%{margin-top: -5vh; opacity: 0;}
-  100%{margin-top: 5vh; opacity: 1;}  
+  100%{margin-top: 8vh; opacity: 1;}  
 }
 
 
