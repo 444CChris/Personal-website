@@ -43,8 +43,6 @@
     padding-top:0.3vh;
   }
 
-
-
   #theme-swap-link {
     background-color: var(--base-color);
     border: none;
@@ -490,6 +488,7 @@
   .footer {
     display: flex;
     flex-direction: row;
+    margin-left: 2vw;
   }
 
   .footer h2{
