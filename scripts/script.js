@@ -46,6 +46,11 @@ function showSlides(n) {
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+    if (slideIndex >= 1 ){
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }else{
+        slides[0].style.display = "block";
+        dots[0].className += " active";
+    }
 } 
