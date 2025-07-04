@@ -408,6 +408,12 @@
     display: block;
   }
 
+  .post ul{
+    font-size: 2.5vmin;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+
   @font-face {
     font-family: "inter";
     src: url('./assets/fonts/Inter/static/Inter_18pt-Regular.ttf');
@@ -829,6 +835,12 @@
       animation: fadeIn;
       animation-duration: 3s;
     }
+
+    .post ul{
+    font-size: 4vmin;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
   
     @font-face {
       font-family: "inter";
